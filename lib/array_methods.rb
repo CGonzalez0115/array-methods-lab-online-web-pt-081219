@@ -5,10 +5,13 @@ def using_include(array, element)
     => true
   using_include.include? ("Tardis")
     => false
-end
+
 end
 
 def using_sort(array)
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  array.sort
+    => ["I", "am", "really", "arrays", "learning", "wow"]
 
 end
 
