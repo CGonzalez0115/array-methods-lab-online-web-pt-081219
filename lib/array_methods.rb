@@ -4,7 +4,7 @@ def using_include(array, element)
   => true
   words.include?("Tardis")
   => false
-
+end
 end
 
 def using_sort(array)
