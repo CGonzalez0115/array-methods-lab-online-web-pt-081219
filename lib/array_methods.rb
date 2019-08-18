@@ -2,9 +2,9 @@ def using_include(array, element)
   words = ["wow", "I", "am", "really", "learning", "arrays!"]
 
   words.include?("wow")
-  => true
+    => true
   words.include?("Tardis")
-  => false
+    => false
 end
 end
 
